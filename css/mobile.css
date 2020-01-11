@@ -1,0 +1,80 @@
+#navbar {
+  flex-direction: column;
+}
+
+#navbar .links {
+  justify-content: center;
+}
+
+#navbar .socials {
+  margin: 1.5rem 0 0 0;
+  justify-content: center;
+}
+
+.showcase-content {
+  text-align: center;
+}
+
+.showcase-links {
+  display: flex;
+  flex-direction: column;
+}
+
+#about .about-content p {
+  /* margin: 2rem 0; */
+  padding: 1rem 1rem;
+  margin: 0 0 1rem 0;
+  line-height: 2;
+}
+
+#education .education-item {
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  justify-items: center;
+  margin: 0;
+}
+
+#education .education-item .year {
+  margin: 2rem 0 0 0;
+  text-align: center;
+}
+
+#education .education-item .school .achievement-item p {
+  margin: 0.2rem 0 0 0;
+  color: #818081;
+}
+
+#experience .experience-item {
+  margin: 0 0 0 0;
+  justify-content: center;
+  justify-items: center;
+  text-align: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+#experience .experience-item .school {
+  width: 100%;
+  /* flex-grow: 1; */
+}
+
+#experience .experience-item .year {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 1.5rem 0 0 0;
+}
+
+.project-container {
+  grid-template-columns: 1fr;
+}
+
+.contact-items {
+  flex-direction: column;
+}
+
+.detail-item {
+  display: flex;
+  flex-direction: column;
+}
