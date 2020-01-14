@@ -49,6 +49,42 @@
   <body>
     <header id="home">
       <div class="overlay">
+        <div class="menu-overlay">
+          <div class="menu-content">
+            <div class="links">
+              <ul class="link">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+              </ul>
+              <ul class="link social-link">
+                <li>
+                  <a
+                    href="https://www.linkedin.com/in/hansenc23/"
+                    target="_blank"
+                    ><i class="fab fa-linkedin-in"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="https://github.com/hansenc23" target="_blank"
+                    ><i class="fab fa-github"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href=""><i class="fab fa-facebook"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="menu-container">
+            <div class="menu-btn">
+              <div class="btn-line"></div>
+              <div class="btn-line"></div>
+              <div class="btn-line"></div>
+            </div>
+          </div>
+        </div>
+
         <nav id="navbar">
           <ul class="links">
             <li><a href="#home">Home</a></li>
@@ -414,7 +450,8 @@
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
       AOS.init({
-        duration: 700
+        duration: 700,
+        once: true
       });
     </script>
     <script src="main.js"></script>
