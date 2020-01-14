@@ -80,6 +80,9 @@ li {
 }
 
 /* navbar */
+.menu-overlay {
+  display: none;
+}
 .menu-content {
   visibility: hidden;
 }
@@ -131,6 +134,7 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  /* margin: 0 0 10rem 0; */
 }
 
 .showcase-links {
